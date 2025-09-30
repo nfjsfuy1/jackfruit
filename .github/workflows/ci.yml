@@ -3,12 +3,12 @@ name: BuildandTest
 on:
   schedule:
     - cron: "29 */6 * * *"
-  push:
+#  push:
 
 jobs:
   build_source:
 
-    name: Source Packages
+    name: Builder
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v3
