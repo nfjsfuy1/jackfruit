@@ -1,8 +1,8 @@
 name: BuildandTest
 
 on:
-#  schedule:
-#    - cron: "29 */6 * * *"
+  schedule:
+    - cron: "29 */6 * * *"
   push:
 
 jobs:
