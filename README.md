@@ -1,4 +1,3 @@
-<ul>
   <li>Upload an image and get the predicted class.</li>
   <li>Supports JPG, PNG, and JPEG image formats.</li>
 </ul>
